@@ -7,12 +7,10 @@ on:
         description: "起始 job 编号"
         required: true
         default: "1"
-        type: string
       count:
         description: "job 数量"
         required: true
         default: "40"
-        type: string
 
 jobs:
   call-matrix-workflow:
