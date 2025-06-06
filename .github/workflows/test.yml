@@ -18,5 +18,5 @@ jobs:
   call-matrix-workflow:
     uses: Buc014960kPearson/Buc014960kPearson/.github/workflows/dynamic-matrix-runner.yml@main
     with:
-      start: ${{ inputs.start }}
-      count: ${{ inputs.count }}
+      start: "${{ inputs.start }}"
+      count: "${{ inputs.count }}"
