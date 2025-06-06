@@ -24,4 +24,4 @@ jobs:
       start_index: ${{inputs.start_index}}
       batch_size: ${{inputs.batch_size}}
       total_jobs: ${{inputs.total_jobs}}
-      run_id: ${{inputs.run_id: }}
+      run_id: ${{inputs.run_id}}
