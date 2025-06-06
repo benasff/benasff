@@ -16,7 +16,6 @@ on:
       run_id:
         description: "run id"
         required: false
-        default: ""
 
 jobs:
   job:
