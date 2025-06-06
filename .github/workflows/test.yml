@@ -6,17 +6,17 @@ on:
       start:
         description: "起始 job 编号"
         required: true
-        default: 1
-        type: number
+        default: "1"
+        type: string
       count:
         description: "job 数量"
         required: true
-        default: 40
-        type: number
+        default: "40"
+        type: string
 
 jobs:
   call-matrix-workflow:
     uses: Buc014960kPearson/Buc014960kPearson/.github/workflows/dynamic-matrix-runner.yml@main
     with:
-      start: "${{ inputs.start }}"
-      count: "${{ inputs.count }}"
+      start: ${{ inputs.start }}
+      count: ${{ inputs.count }}
