@@ -15,7 +15,7 @@ on:
         default: "80"
 
 jobs:
-  call:
+  job:
     uses: Buc014960kPearson/Buc014960kPearson/.github/workflows/dynamic-matrix-runner.yml@main
     with:
       start_index: ${{inputs.start_index}}
